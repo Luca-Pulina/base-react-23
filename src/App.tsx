@@ -9,7 +9,10 @@ import { User } from "./components/Users/User"
 function App() {
 	const [userList, setUserList] = useState<User[]>([
 		{ userName: "Luca", age: 32 },
-		{ userName: "Jessika", age: 33 },
+		{ userName: "Mario", age: 33 },
+		{ userName: "Gigi", age: 34 },
+		{ userName: "Manuel", age: 35 },
+		{ userName: "Sandro", age: 36 },
 	])
 
 	const addUserHandler = (user: User) => {
